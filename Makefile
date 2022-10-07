@@ -17,7 +17,7 @@ _imports:
 	
 
 _vet:
-	$(GOVET) main.go
+	$(GOVET) .
 	
 
 _staticcheck:
