@@ -1,8 +1,8 @@
-name: action name
-on: 
-  push:
+name: Lint Check CI
+on:
+  pull_request:
 jobs:
-  my_first_job:
+  lint-check:
     name: My first job name
     runs-on: ubuntu-latest
     steps:
