@@ -21,5 +21,5 @@ _vet:
 	
 
 _staticcheck:
-	$(STATICCHECK) main.go
+	$(STATICCHECK) .
 	
