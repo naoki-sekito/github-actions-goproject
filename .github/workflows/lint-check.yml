@@ -2,7 +2,6 @@ name: Lint Check CI
 
 on: pull_request
 
-
 jobs:  
   my_first_job:
     name: My first job
