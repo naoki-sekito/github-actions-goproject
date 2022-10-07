@@ -13,13 +13,13 @@ _install:
 lint: _imports _vet _staticcheck
 
 _imports:
-	$(GOIMPORTS) -d ./cmd
-	$(GOIMPORTS) -d ./pkg
+	$(GOIMPORTS) -d main.go
+	
 
 _vet:
-	$(GOVET) ./cmd/...
-	$(GOVET) ./pkg/...
+	$(GOVET) main.go
+	
 
 _staticcheck:
-	$(STATICCHECK) ./cmd/...
-	$(STATICCHECK) ./pkg/...
+	$(STATICCHECK) main.go
+	
