@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// main test
+// main a
 func main() {
 
 	msg := SayMessage("say")
