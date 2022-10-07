@@ -1,18 +1,6 @@
 name: Lint Check CI
+
 on:
-  pull_request:
+
+
 jobs:
-  lint-check:
-    name: My first job name
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "step1"
-      - run: echo "step2"
-  my_second_job:
-    name: My first job name
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "step1"
-      - run: echo "step2"
-
-
