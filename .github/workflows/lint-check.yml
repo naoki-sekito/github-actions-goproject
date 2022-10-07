@@ -23,7 +23,9 @@ jobs:
       with:
        go-version: 1.19
     - run: go version
-    - run: make install
+
+    - name: Install
+      run: make install
     
     - name: lintcheck
       run: make lint
